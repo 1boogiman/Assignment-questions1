@@ -146,5 +146,22 @@ console.log(removeDups(x,w))
 //????????????   HARD   ?????????????
 
 //question 1
+function  realType(a){
+  if(a===null)
+  {
+    return "null";
+  }
+  else if((typeof a) === "object")
+  {
+    return "array";
+  }
+  else{
+    return typeof a;
+  }
+}
+console.log(realType(1))
+//console.log(realType(""))
+//console.log(realType(null))
+//console.log(realType([]))
 
 //question2
